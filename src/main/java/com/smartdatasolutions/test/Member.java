@@ -71,17 +71,5 @@ public class Member {
 		return id+" , "+firstName+" , "+lastName+" , "+address+" , "+city+" , "+zip;
 	}
 
-	@Override
-	public String toString() {
-		System.out.println( "Member{" +
-				"id='" + id + '\'' +
-				", address='" + address + '\'' +
-				", city='" + city + '\'' +
-				", firstName='" + firstName + '\'' +
-				", lastName='" + lastName + '\'' +
-				", state='" + state + '\'' +
-				", zip='" + zip + '\'' +
-				'}');
-		return 0+"";
-	}
+
 }
