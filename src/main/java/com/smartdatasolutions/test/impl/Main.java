@@ -16,14 +16,14 @@ public class Main extends MemberFileConverter  {
 
 	@Override
 	protected MemberExporter getMemberExporter( ) {
-		// TODO
-		return null;
+		MemberExporter memberExporter=new MemberExporterImpl();
+		return memberExporter;
 	}
 
 	@Override
 	protected MemberImporter getMemberImporter( ) {
-
-		return null;
+MemberImporter memberImporter=new MemberImporterImpl();
+		return memberImporter;
 	}
 
 	@Override
